@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Prénom Nom</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background:#f5f5f5;
+        }
+
+        header{
+            background:#1f2937;
+            color:white;
+            text-align:center;
+            padding:40px 20px;
+        }
+
+        .presentation{
+            text-align:center;
+            padding:50px 20px;
+            max-width:800px;
+            margin:auto;
+        }
+
+        .projets{
+            display:flex;
+            justify-content:center;
+            gap:30px;
+            flex-wrap:wrap;
+            padding:20px;
+        }
+
+        .carte{
+            background:white;
+            width:350px;
+            padding:25px;
+            border-radius:10px;
+            box-shadow:0 2px 10px rgba(0,0,0,0.1);
+            text-align:center;
+        }
+
+        .carte h2{
+            margin-bottom:15px;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:15px;
+            padding:10px 20px;
+            background:#2563eb;
+            color:white;
+            text-decoration:none;
+            border-radius:5px;
+        }
+
+        .btn:hover{
+            background:#1d4ed8;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Outouil Zakariyae</h1>
+    <p>Étudiant BTS SIO option SISR</p>
+</header>
+
+<section class="presentation">
+    <h2>Présentation</h2>
+    <br>
+    <p>
+        Je m'appelle Zakariyae Outouil, étudiant en BTS SIO option SISR. 
+        Passionné par les réseaux et la cybersécurité, je m'intéresse particulièrement 
+        à l'administration des infrastructures informatiques, à leur sécurisation et 
+        à la réalisation d'audits de sécurité. 
+        À travers ma formation et mes projets, je développe des compétences techniques dans le domaine des systèmes, 
+        des réseaux et de la protection des systèmes d'information.
+    </p>
+</section>
+
+<section class="projets">
+
+    <div class="carte">
+        <h2>Projet 1</h2>
+        <p>
+            Supervision et sécurisation d'une infrastructure réseau avec Zabbix.
+        </p>
+        <a href="Dossier_Projet1_Final.pdf" class="btn">Voir le projet</a>
+    </div>
+
+    <div class="carte">
+        <h2>Projet 2</h2>
+        <p>
+            Conception d'une infrastructure réseau multi-sites sécurisée.
+        </p>
+        <a href="projet2.pdf" class="btn">Voir le projet</a>
+    </div>
+
+</section>
+
+</body>
+</html>
